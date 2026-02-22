@@ -220,7 +220,7 @@ a   { color: inherit; }
   text-decoration: none;
 }
 .nav-logo img {
-  height: 56px;
+  height: 149px;
   width: auto;
   filter: brightness(0) invert(1);
   transition: opacity .2s;
@@ -348,8 +348,8 @@ a   { color: inherit; }
   bottom: -1px;
   left: 0;
   right: 0;
-  height: 180px;
-  background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,.55) 40%, transparent 100%);
+  height: 80px;
+  background: linear-gradient(to top, rgba(255,255,255,.6) 0%, transparent 100%);
   pointer-events: none;
 }
 
@@ -424,12 +424,15 @@ a   { color: inherit; }
   justify-content: flex-end;
   position: relative;
 }
+.hero-img-outer {
+  position: relative;
+  max-width: 560px;
+  width: 100%;
+}
 .hero-img-wrap {
   width: 100%;
-  max-width: 560px;
   border-radius: 18px;
   overflow: hidden;
-  position: relative;
   box-shadow: 0 40px 80px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.08);
 }
 .hero-img-wrap img {
@@ -487,17 +490,17 @@ a   { color: inherit; }
   z-index: 1;
   text-decoration: none;
 }
-.hero-scroll span { font-size: 11px; color: rgba(255,255,255,.4); font-weight: 500; letter-spacing: 1px; text-transform: uppercase; }
+.hero-scroll span { font-size: 11px; color: #000; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; }
 .hero-scroll-arrow {
   width: 32px; height: 32px;
-  border: 1.5px solid rgba(255,255,255,.2);
+  border: 1.5px solid #000;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: bounce 2s ease-in-out infinite;
 }
-.hero-scroll-arrow svg { width: 14px; height: 14px; stroke: rgba(255,255,255,.5); fill: none; stroke-width: 2; }
+.hero-scroll-arrow svg { width: 14px; height: 14px; stroke: #000; fill: none; stroke-width: 2; }
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50%       { transform: translateY(5px); }
@@ -866,7 +869,7 @@ a   { color: inherit; }
 }
 .footer-brand { display: flex; flex-direction: column; gap: 18px; max-width: 280px; }
 .footer-brand-logo img {
-  height: 40px;
+  height: 107px;
   width: auto;
   filter: brightness(0) invert(1);
   opacity: .88;
@@ -920,7 +923,7 @@ a   { color: inherit; }
 @media (max-width: 1100px) {
   :root { --pad: 48px; }
   .hero-content { flex: 0 0 460px; }
-  .hero-img-wrap { max-width: 460px; }
+  .hero-img-outer { max-width: 460px; }
 }
 
 @media (max-width: 900px) {
@@ -932,7 +935,7 @@ a   { color: inherit; }
   .hero-content { flex: none; width: 100%; max-width: 560px; margin: 0 auto; }
   .hero-title { font-size: clamp(38px, 10vw, 62px); }
   .hero-visual { justify-content: center; width: 100%; }
-  .hero-img-wrap { max-width: 100%; }
+  .hero-img-outer { max-width: 100%; }
   .hero-float-card { left: 12px; bottom: 12px; }
   .hero-float-card-2 { right: 8px; top: 12px; }
 
@@ -1025,7 +1028,7 @@ a   { color: inherit; }
 
       <h1 class="hero-title reveal reveal-delay-1">
         Kampüsten<br>
-        <span class="accent">Dünyaya.</span>
+        <span class="accent">Globale</span>
       </h1>
 
       <p class="hero-sub reveal reveal-delay-2">
@@ -1048,21 +1051,20 @@ a   { color: inherit; }
     </div>
 
     <div class="hero-visual reveal reveal-delay-2">
-      <div class="hero-img-wrap">
-        <img
-          src="ref-images/header-image.png"
-          alt="GlobalGen Beyond Borders Erasmus+ projesi katılımcıları — Litvanya"
-          loading="eager"
-          fetchpriority="high"
-        />
+      <div class="hero-img-outer">
+        <div class="hero-img-wrap">
+          <img
+            src="ref-images/header-image.png"
+            alt="GlobalGen Beyond Borders Erasmus+ projesi katılımcıları — Litvanya"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
         <div class="hero-float-card">
-          <span class="num" data-count="84000" data-suffix="k+">84k+</span>
+          <span class="num" data-count="90" data-suffix="k+">90k+</span>
           <span class="lbl">Görüntüleme</span>
         </div>
-        <div class="hero-float-card-2">
-          <span class="dot"></span>
-          <span>5 Ülke, 1 Topluluk</span>
-        </div>
+
       </div>
     </div>
   </div>
@@ -1083,7 +1085,7 @@ a   { color: inherit; }
       <span class="stat-lbl">Instagram Takipçisi</span>
     </div>
     <div class="stat reveal reveal-delay-1">
-      <span class="stat-num" data-count="84" data-suffix="k+">84k+</span>
+      <span class="stat-num" data-count="90" data-suffix="k+">90k+</span>
       <span class="stat-lbl">Görüntüleme</span>
     </div>
     <div class="stat reveal reveal-delay-2">
@@ -1091,7 +1093,7 @@ a   { color: inherit; }
       <span class="stat-lbl">Ülke</span>
     </div>
     <div class="stat reveal reveal-delay-3">
-      <span class="stat-num" data-count="8" data-suffix="+">10+</span>
+      <span class="stat-num" data-count="10" data-suffix="+">10+</span>
       <span class="stat-lbl">Toplulukla Görüşme</span>
     </div>
   </div>
@@ -1143,12 +1145,11 @@ a   { color: inherit; }
 
     <div class="team-wrap">
       <div class="team-subheader reveal">
-        <span class="tag">EKİBİMİZ</span>
-        <h3>GlobalGen'i Kuranlar</h3>
+        <h3>EKİBİMİZ</h3>
       </div>
       <div class="team-grid">
         <article class="team-card reveal">
-          <div class="avatar" style="background:var(--navy);" aria-hidden="true">AİA</div>
+          <div class="avatar" style="background:var(--navy);" aria-hidden="true">AIA</div>
           <h4>Ayşe İrem Alan</h4>
           <span class="team-role">Founder</span>
           <p class="team-bio">
@@ -1159,7 +1160,7 @@ a   { color: inherit; }
         </article>
 
         <article class="team-card reveal reveal-delay-1">
-          <div class="avatar" style="background:var(--blue);" aria-hidden="true">İA</div>
+          <div class="avatar" style="background:var(--blue);" aria-hidden="true">IA</div>
           <h4>Ilgın Akkoyun</h4>
           <span class="team-role">Co-Founder</span>
           <p class="team-bio">
@@ -1200,9 +1201,7 @@ a   { color: inherit; }
     <div class="gt-grid">
       <article class="gt-card reveal">
         <div class="gt-card-media">
-          <div class="gt-card-media-icon">
-            <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          </div>
+          <img src="ref-images/1.jpeg" alt="Barış — Almanya lisans deneyimi" loading="lazy" />
           <span class="gt-card-number">#1</span>
         </div>
         <div class="gt-card-body">
@@ -1221,9 +1220,7 @@ a   { color: inherit; }
 
       <article class="gt-card reveal reveal-delay-1">
         <div class="gt-card-media">
-          <div class="gt-card-media-icon">
-            <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-          </div>
+          <img src="ref-images/2.jpeg" alt="Melis — King's College London yüksek lisans" loading="lazy" />
           <span class="gt-card-number">#2</span>
         </div>
         <div class="gt-card-body">
@@ -1242,7 +1239,7 @@ a   { color: inherit; }
 
       <article class="gt-card reveal reveal-delay-2">
         <div class="gt-card-media">
-          <img src="ref-images/ilgin.jpeg" alt="Beyond Borders Erasmus+ projesi — Litvanya" loading="lazy" />
+          <img src="ref-images/3.jpeg" alt="Beyond Borders Erasmus+ projesi — Litvanya" loading="lazy" />
           <span class="gt-card-number">E+</span>
         </div>
         <div class="gt-card-body">
@@ -1404,7 +1401,7 @@ a   { color: inherit; }
         <img src="ref-images/logo.png" alt="GlobalGen" width="130" height="44" loading="lazy" />
       </a>
       <p class="footer-tagline">
-        Kampüsten Globale. Gençlerin uluslararası deneyimlerini toplumsal faydaya dönüştürüyoruz.
+        Kampüsten Globale Gençlerin uluslararası deneyimlerini toplumsal faydaya dönüştürüyoruz.
       </p>
     </div>
 
@@ -1415,12 +1412,7 @@ a   { color: inherit; }
         <a href="#hakkimizda">Ekibimiz</a>
         <a href="#gentalks">GenTalks</a>
       </div>
-      <div class="footer-col">
-        <span class="footer-col-title">Fırsatlar</span>
-        <a href="#gentalks">Erasmus+</a>
-        <a href="#gentalks">Staj Programları</a>
-        <a href="#gentalks">Burs Fırsatları</a>
-      </div>
+      
       <div class="footer-col">
         <span class="footer-col-title">İletişim</span>
         <a href="mailto:alanayseirem20@gmail.com">alanayseirem20@gmail.com</a>
