@@ -1,0 +1,2126 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "hyks0",
+      "x": 0,
+      "y": 0,
+      "name": "GlobalGen Landing Page",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "G0qNU",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#012C6A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "77HAQ",
+              "name": "Logo",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "H6GIK",
+                  "name": "planeIcon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "plane-takeoff",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "frame",
+                  "id": "NkN4D",
+                  "name": "LogoText",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YUkSE",
+                      "name": "genLabel",
+                      "fill": "#FFFFFF",
+                      "content": "GEN",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "5iOMt",
+                      "name": "globalLabel",
+                      "fill": "#FFFFFF",
+                      "content": "GLOBAL",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "800",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x18ve",
+              "name": "NavLinks",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OTvo2",
+                  "name": "nl1",
+                  "fill": "#FFFFFF",
+                  "content": "Ana Sayfa",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "C296g",
+                  "name": "nl2",
+                  "fill": "#FFFFFF",
+                  "content": "Hakkımızda",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "wwRWN",
+                  "name": "nl3",
+                  "fill": "#FFFFFF",
+                  "content": "GenTalks",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "eSEW3",
+                  "name": "nl4",
+                  "fill": "#FFFFFF",
+                  "content": "İş Birlikleri",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "IZG9D",
+                  "name": "nl5",
+                  "fill": "#FFFFFF",
+                  "content": "İletişim",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wz644",
+              "name": "CTAButton",
+              "fill": "#FFFFFF",
+              "cornerRadius": 4,
+              "padding": [
+                12,
+                28
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XEq2c",
+                  "name": "ctaTxt",
+                  "fill": "#012C6A",
+                  "content": "Bize Ulaşın",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iyQZm",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 680,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 160,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#012C6A",
+                "position": 0
+              },
+              {
+                "color": "#1C3382",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "k7TZk",
+              "name": "HeroInner",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jhk35",
+                  "name": "HeroLeft",
+                  "width": 600,
+                  "layout": "vertical",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5cgSx",
+                      "name": "HeroBadge",
+                      "fill": "#FFFFFF1A",
+                      "cornerRadius": 20,
+                      "gap": 8,
+                      "padding": [
+                        8,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "yQujs",
+                          "name": "badgeIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "globe",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dRn0f",
+                          "name": "badgeText",
+                          "fill": "#FFFFFF",
+                          "content": "Gençlik · Deneyim · Dönüşüm",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TXNvh",
+                      "name": "HeroHeadline",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CmxZk",
+                          "name": "h1Line1",
+                          "fill": "#FFFFFF",
+                          "content": "Kampüsten",
+                          "fontFamily": "Inter",
+                          "fontSize": 72,
+                          "fontWeight": "800",
+                          "letterSpacing": -2
+                        },
+                        {
+                          "type": "text",
+                          "id": "GtFVN",
+                          "name": "h1Line2",
+                          "fill": "#FFFFFF",
+                          "content": "Dünyaya.",
+                          "fontFamily": "Inter",
+                          "fontSize": 72,
+                          "fontWeight": "800",
+                          "letterSpacing": -2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OguBb",
+                      "name": "heroSub",
+                      "fill": "#FFFFFFCC",
+                      "textGrowth": "fixed-width",
+                      "width": 540,
+                      "content": "Gençlerin uluslararası deneyimlerini toplumsal faydaya dönüştüren öncü gençlik topluluğu.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tyiZ5",
+                      "name": "HeroCTAs",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wxJAJ",
+                          "name": "PrimaryCTA",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "padding": [
+                            16,
+                            36
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rD3J9",
+                              "name": "primaryCtaText",
+                              "fill": "#012C6A",
+                              "content": "Topluluğa Katıl",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JKyfW",
+                          "name": "SecondaryCTA",
+                          "fill": "#FFFFFF00",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#FFFFFF66"
+                          },
+                          "padding": [
+                            16,
+                            36
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LFKhm",
+                              "name": "secondaryCtaText",
+                              "fill": "#FFFFFF",
+                              "content": "GenTalks'ı Keşfet",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FYuMk",
+                  "name": "HeroRight",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "jkozoski",
+                    "link": "https://unsplash.com/@jkozoski",
+                    "author": "Juliana Kozoski"
+                  },
+                  "width": 520,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE3NzgwOTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z8Rci",
+          "name": "StatsBar",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "#F0F4FA",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kOd3v",
+              "name": "Stat1",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AIPKk",
+                  "name": "s1val",
+                  "fill": "#012C6A",
+                  "content": "2000+",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "Qtyqm",
+                  "name": "s1lbl",
+                  "fill": "#6B7280",
+                  "content": "Topluluk Üyesi",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TfIUb",
+              "name": "Stat2",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Uyx89",
+                  "name": "s2val",
+                  "fill": "#012C6A",
+                  "content": "30+",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "9Ng6I",
+                  "name": "s2lbl",
+                  "fill": "#6B7280",
+                  "content": "Ülke",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Gnn6h",
+              "name": "Stat3",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8jhXM",
+                  "name": "s3val",
+                  "fill": "#012C6A",
+                  "content": "50+",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "gCZCJ",
+                  "name": "s3lbl",
+                  "fill": "#6B7280",
+                  "content": "Etkinlik",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SiKfU",
+              "name": "Stat4",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q2pP8",
+                  "name": "s4val",
+                  "fill": "#012C6A",
+                  "content": "10+",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "Q4Oyx",
+                  "name": "s4lbl",
+                  "fill": "#6B7280",
+                  "content": "İş Birliği",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tLcei",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "P7mIV",
+              "name": "AboutHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4aSbk",
+                  "name": "aboutTag",
+                  "fill": "#1C3382",
+                  "content": "BİZ KİMİZ",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "VrYNu",
+                  "name": "aboutTitle",
+                  "fill": "#012C6A",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Gençlerin Sesi, Dünyanın Değişimi",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "7Djjm",
+                  "name": "aboutSub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "GlobalGen, gençlere yurt dışı fırsatları sunan ve uluslararası deneyimleri toplumsal faydaya dönüştüren bir topluluğtur.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HSYwL",
+              "name": "VMGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fZMlz",
+                  "name": "VisionCard",
+                  "width": "fill_container",
+                  "fill": "#F0F4FA",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lOnH4",
+                      "name": "VisionIcon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#012C6A",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "waLUq",
+                          "name": "vc1Ico",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "target",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "6UOfZ",
+                      "name": "vc1Title",
+                      "fill": "#012C6A",
+                      "content": "Vizyonumuz",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q7DDr",
+                      "name": "vc1Text",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Gençlerin uluslararası gönüllülük ve kültürlerarası deneyimlerini yalnızca bireysel kazanımlarla sınırlı tutmayıp, bu kazanımları Türkiye'de toplumsal faydaya dönüştüren öncü gençlik topluluğu olmak.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x0Jog",
+                  "name": "MissionCard",
+                  "width": "fill_container",
+                  "fill": "#012C6A",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LTgUO",
+                      "name": "MissionIcon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFFFFF1A",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "2NcTf",
+                          "name": "vc2Ico",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "rocket",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ebGvj",
+                      "name": "vc2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Misyonumuz",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d4uI8",
+                      "name": "MissionItems",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LUzjm",
+                          "name": "mi1",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "→  Gençlere yurt dışı gönüllülük, Erasmus+ ve hibe projeleri konusunda ilham vermek",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GCbG5",
+                          "name": "mi2",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "→  Yurt dışı deneyimlerinin toplumsal etki yaratmasını sağlamak",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l6eRK",
+                          "name": "mi3",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "→  Hikâye paylaşımı, atölyeler ve paneller düzenlemek",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "saYbJ",
+                          "name": "mi4",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "→  Uluslararası iş birlikleri kurarak kültürlerarası diyalogu güçlendirmek",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wMCnX",
+              "name": "TeamSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BU152",
+                  "name": "TeamHeader",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bpoT5",
+                      "name": "teamTag",
+                      "fill": "#1C3382",
+                      "content": "EKİBİMİZ",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "HlDan",
+                      "name": "teamTitle",
+                      "fill": "#012C6A",
+                      "content": "GlobalGen'i Kuranlar",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8Gl9z",
+                  "name": "TeamGrid",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FQcdT",
+                      "name": "TeamMember1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        40,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B6MvU",
+                          "name": "Photo1",
+                          "width": 80,
+                          "height": 80,
+                          "fill": "#012C6A",
+                          "cornerRadius": 40,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "09DVN",
+                              "name": "tm1Initials",
+                              "fill": "#FFFFFF",
+                              "content": "AİA",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "4c1wq",
+                          "name": "tm1Name",
+                          "fill": "#012C6A",
+                          "content": "Ayşe İrem Alan",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MS4G2",
+                          "name": "tm1Role",
+                          "fill": "#6B7280",
+                          "content": "Founder & Strategic Lead",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NkWB2",
+                      "name": "TeamMember2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        40,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WyMZE",
+                          "name": "Photo2",
+                          "width": 80,
+                          "height": 80,
+                          "fill": "#1C3382",
+                          "cornerRadius": 40,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ylHSM",
+                              "name": "tm2Initials",
+                              "fill": "#FFFFFF",
+                              "content": "İA",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "SfHA1",
+                          "name": "tm2Name",
+                          "fill": "#012C6A",
+                          "content": "Ilgın Akkoyun",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "99c4R",
+                          "name": "tm2Role",
+                          "fill": "#6B7280",
+                          "content": "Operations & Process Coordinator",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oF1si",
+                      "name": "TeamMember3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        40,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "z0ZZG",
+                          "name": "Photo3",
+                          "width": 80,
+                          "height": 80,
+                          "fill": "#012C6A",
+                          "cornerRadius": 40,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "puVik",
+                              "name": "tm3Initials",
+                              "fill": "#FFFFFF",
+                              "content": "EY",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "0Kab9",
+                          "name": "tm3Name",
+                          "fill": "#012C6A",
+                          "content": "Emir Yılmaz",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SHsIa",
+                          "name": "tm3Role",
+                          "fill": "#6B7280",
+                          "content": "Global Operations Lead (US)",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kav4y",
+          "name": "GenTalks",
+          "width": "fill_container",
+          "fill": "#012C6A",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mqMcq",
+              "name": "GTHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nv680",
+                  "name": "GTHeaderLeft",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kPCpr",
+                      "name": "gtTag",
+                      "fill": "#FFFFFF99",
+                      "content": "GENTALKS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "jFz0X",
+                      "name": "gtTitle",
+                      "fill": "#FFFFFF",
+                      "content": "Deneyimler, Hikayeler,\nİlhamlar",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mtB9n",
+                  "name": "GTMoreBtn",
+                  "fill": "#FFFFFF1A",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF33"
+                  },
+                  "padding": [
+                    12,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NtxmT",
+                      "name": "gtMoreText",
+                      "fill": "#FFFFFF",
+                      "content": "Tümünü Gör →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u2geB",
+              "name": "GTGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "In5in",
+                  "name": "GTCard1",
+                  "width": "fill_container",
+                  "fill": "#1C3382",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lUhsM",
+                      "name": "GTCard1Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771778214800.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VZTB0",
+                      "name": "GTCard1Body",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DqDZI",
+                          "name": "gtCard1Tag",
+                          "fill": "#FFFFFF99",
+                          "content": "ERASMUS+",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "oEnY1",
+                          "name": "gtCard1Title",
+                          "fill": "#FFFFFF",
+                          "content": "Erasmus+ Deneyimleri",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cHbQ3",
+                          "name": "gtCard1Desc",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Gençlerin Avrupa'daki eğitim ve gönüllülük deneyimlerini keşfedin.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CheHR",
+                  "name": "GTCard2",
+                  "width": "fill_container",
+                  "fill": "#1C3382",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dpS5J",
+                      "name": "GTCard2Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771778222146.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CLDiz",
+                      "name": "GTCard2Body",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "6FZiU",
+                          "name": "gtCard2Tag",
+                          "fill": "#FFFFFF99",
+                          "content": "STAJ",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "OGkVZ",
+                          "name": "gtCard2Title",
+                          "fill": "#FFFFFF",
+                          "content": "Yurt Dışı Staj Hikayeleri",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pCSTd",
+                          "name": "gtCard2Desc",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Uluslararası staj deneyimlerinden ilham alın.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EU0Jd",
+                  "name": "GTCard3",
+                  "width": "fill_container",
+                  "fill": "#1C3382",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Uf6Nr",
+                      "name": "GTCard3Img",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771778249251.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uJGfn",
+                      "name": "GTCard3Body",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vH6pA",
+                          "name": "gtCard3Tag",
+                          "fill": "#FFFFFF99",
+                          "content": "BURS & FIRSATLAR",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "M6Qb3",
+                          "name": "gtCard3Title",
+                          "fill": "#FFFFFF",
+                          "content": "Burs ve Fırsatlar",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YnIFc",
+                          "name": "gtCard3Desc",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Yurt dışı eğitim ve burs fırsatları hakkında bilgi edinin.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SVfUW",
+          "name": "Partnerships",
+          "width": "fill_container",
+          "fill": "#F8FAFF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "3d3MW",
+              "name": "PartHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DnDv1",
+                  "name": "partTag",
+                  "fill": "#1C3382",
+                  "content": "İŞ BİRLİKLERİ",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "caRVT",
+                  "name": "partTitle",
+                  "fill": "#012C6A",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Birlikte Daha Güçlüyüz",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tSwrH",
+              "name": "PartGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hkTLw",
+                  "name": "PartCard1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E5E7EB"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FG1zO",
+                      "name": "PC1Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "dPPY0",
+                          "name": "pc1Ico",
+                          "width": 26,
+                          "height": 26,
+                          "iconFontName": "graduation-cap",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dnpaK",
+                      "name": "pc1Title",
+                      "fill": "#012C6A",
+                      "content": "Üniversite Kulüpleri",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9fge",
+                      "name": "pc1Text",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "İstanbul'daki üniversitelerin girişimcilik ve yurt dışı kulüpleri ile iş birliği yapıyoruz.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4EtBf",
+                  "name": "PartCard2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E5E7EB"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FDIDP",
+                      "name": "PC2Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bs0Vk",
+                          "name": "pc2Ico",
+                          "width": 26,
+                          "height": 26,
+                          "iconFontName": "calendar",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "xfqIk",
+                      "name": "pc2Title",
+                      "fill": "#012C6A",
+                      "content": "Etkinlikler",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xq6eS",
+                      "name": "pc2Text",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Paneller, atölyeler ve zirveler düzenleyerek gençlere ilham veriyoruz.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pPjXu",
+                  "name": "PartCard3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E5E7EB"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G0Gqy",
+                      "name": "PC3Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "BQlsE",
+                          "name": "pc3Ico",
+                          "width": 26,
+                          "height": 26,
+                          "iconFontName": "globe",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RmWME",
+                      "name": "pc3Title",
+                      "fill": "#012C6A",
+                      "content": "Uluslararası Partnerler",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1rjsc",
+                      "name": "pc3Text",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Avrupa ve Amerika'daki derneklerle iş birliği içinde projeler geliştiriyoruz.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "97gY7",
+              "name": "PartCTA",
+              "width": "fill_container",
+              "fill": "#012C6A",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                48,
+                60
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ACIWZ",
+                  "name": "pctaTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Bizimle Çalışmak İster Misiniz?",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "800",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "7XHN7",
+                  "name": "pctaSub",
+                  "fill": "#FFFFFFCC",
+                  "content": "Kulübünüz veya kurumunuzla iş birliği yapmak için bizimle iletişime geçin!",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "afGfG",
+                  "name": "PartCTABtn",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    36
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rFVHT",
+                      "name": "pctaBtnTxt",
+                      "fill": "#012C6A",
+                      "content": "İletişime Geçin",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mkgdN",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 80,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "4BwXK",
+              "name": "ContactLeft",
+              "width": 500,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lM1bX",
+                  "name": "cTag",
+                  "fill": "#1C3382",
+                  "content": "İLETİŞİM",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "qBrWc",
+                  "name": "cTitle",
+                  "fill": "#012C6A",
+                  "content": "Haydi Konuşalım",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "VFo8p",
+                  "name": "cSub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 460,
+                  "content": "Sorularınız mı var? Topluluğumuza katılmak mı istiyorsunuz? Bizimle iletişime geçin!",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "KqrJK",
+                  "name": "CEmailRow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GExtn",
+                      "name": "CEmailIcon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "v2n45",
+                          "name": "cEmailIco",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ylbGm",
+                      "name": "CEmailInfo",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5VycA",
+                          "name": "cEmailLabel",
+                          "fill": "#9CA3AF",
+                          "content": "E-posta",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B2HGI",
+                          "name": "cEmailVal",
+                          "fill": "#012C6A",
+                          "content": "globalgen.tr@gmail.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o7Mw9",
+                  "name": "CSocials",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3Kqjy",
+                      "name": "InstBtn",
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 4,
+                      "gap": 10,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "U9VMj",
+                          "name": "instIco",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HWoU9",
+                          "name": "instTxt",
+                          "fill": "#1C3382",
+                          "content": "Instagram",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wKW63",
+                      "name": "LiBtn",
+                      "fill": "#EEF2FF",
+                      "cornerRadius": 4,
+                      "gap": 10,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "zkXxQ",
+                          "name": "liIco",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "linkedin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1C3382"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wFNo7",
+                          "name": "liTxt",
+                          "fill": "#1C3382",
+                          "content": "LinkedIn",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "erexc",
+              "name": "ContactRight",
+              "width": "fill_container",
+              "height": 400,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1771778295993.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "layout": "vertical"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zQAJH",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#012C6A",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wixV5",
+              "name": "FooterMain",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": [
+                60,
+                80
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r6olD",
+                  "name": "FooterBrand",
+                  "width": 280,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cMSwp",
+                      "name": "FBLogoRow",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "z4omh",
+                          "name": "fbPlane",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "plane-takeoff",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZiDMf",
+                          "name": "FBLogoText",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kXRAl",
+                              "name": "fbGen",
+                              "fill": "#FFFFFF",
+                              "content": "GEN",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "UapbD",
+                              "name": "fbGlobal",
+                              "fill": "#FFFFFF",
+                              "content": "GLOBAL",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "800",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LoFmS",
+                      "name": "fbTagline",
+                      "fill": "#FFFFFF99",
+                      "textGrowth": "fixed-width",
+                      "width": 260,
+                      "content": "Kampüsten Dünyaya. Gençlerin uluslararası deneyimlerini toplumsal faydaya dönüştürüyoruz.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "15Uao",
+                  "name": "FooterNav",
+                  "width": "fill_container",
+                  "gap": 60,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4GTgb",
+                      "name": "FNCol1",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M7WJ3",
+                          "name": "fnCol1Title",
+                          "fill": "#FFFFFF",
+                          "content": "Topluluk",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "kNmvl",
+                          "name": "fnl1",
+                          "fill": "#FFFFFF99",
+                          "content": "Hakkımızda",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aJlWH",
+                          "name": "fnl2",
+                          "fill": "#FFFFFF99",
+                          "content": "Ekibimiz",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "0xLIr",
+                          "name": "fnl3",
+                          "fill": "#FFFFFF99",
+                          "content": "GenTalks",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BmDeX",
+                      "name": "FNCol2",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3OC79",
+                          "name": "fnCol2Title",
+                          "fill": "#FFFFFF",
+                          "content": "Fırsatlar",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "3CMeV",
+                          "name": "fnl4",
+                          "fill": "#FFFFFF99",
+                          "content": "Erasmus+",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nnMQF",
+                          "name": "fnl5",
+                          "fill": "#FFFFFF99",
+                          "content": "Staj Programları",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kkzzn",
+                          "name": "fnl6",
+                          "fill": "#FFFFFF99",
+                          "content": "Burs Fırsatları",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gUVNl",
+                      "name": "FNCol3",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f7pA5",
+                          "name": "fnCol3Title",
+                          "fill": "#FFFFFF",
+                          "content": "İletişim",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "KjGa3",
+                          "name": "fnl7",
+                          "fill": "#FFFFFF99",
+                          "content": "globalgen.tr@gmail.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "9vfKA",
+                          "name": "fnl8",
+                          "fill": "#FFFFFF99",
+                          "content": "Instagram",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OTLAe",
+                          "name": "fnl9",
+                          "fill": "#FFFFFF99",
+                          "content": "LinkedIn",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7WaRL",
+              "name": "FooterBottom",
+              "width": "fill_container",
+              "height": 60,
+              "fill": "#011F4E",
+              "padding": [
+                0,
+                80
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iaC39",
+                  "name": "fbCopy",
+                  "fill": "#FFFFFF66",
+                  "content": "© 2025 GlobalGen. Tüm hakları saklıdır.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "j2JMy",
+                  "name": "fbRight",
+                  "fill": "#FFFFFF66",
+                  "content": "Kampüsten Dünyaya",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
